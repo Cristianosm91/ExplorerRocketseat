@@ -1,0 +1,135 @@
+body {
+    background: #2C2B3D;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    /* max-height: 100vh; */
+    width: 1280;
+    height: 720;
+}
+
+.page {
+    width: 1280px;
+    /* margin: 0 auto;
+    padding-top: 65px; */
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+    margin: 71px 101px 0;
+    /* width: 1000px */
+    
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    gap: 64px;
+    font-family: 'JetBrains Mono';
+    font-size: 14px;
+    
+}
+
+li, a{
+    list-style: none;
+    color:rgb(247, 247, 247);
+}
+
+a:hover {
+    color: #8e8e8e;
+  }
+
+/* ul li + li {
+    margin-left: 64px;
+    
+} */
+
+main {
+    display: flex;
+    margin: 109px 87px 158px 101px;
+    width: 1000px;
+    height: 283px;
+    justify-content: space-between;
+    
+}
+
+/* .container {
+    width: 604px;
+} */
+
+h1 {
+    margin-left: 77px;
+    margin-right: 91px;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 84%;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    
+/* identical to box height, or 111% */
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+p {    
+    width: 614px;
+    height: 168px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 59px 92px 0px 82px;
+    text-align: center;
+    color: #C2C2C2;
+    mix-blend-mode: normal;
+}
+
+span{
+    text-align: center;
+    color: #00BFA6;
+}
+
+footer{
+    font-family: 'JetBrains Mono';
+    text-align: center;
+    /* position: absolute; */
+    /* width: 462px;
+    height: 28px; */
+    left: 397px;
+    top: 669px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+footer p {
+    width: 568px;
+    height: 0;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.line  {
+    width: 568px;
+    height: 0;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid #00BFA6;
+  }
+
+  .padlock {
+      position: absolute;
+      bottom: 3px;
+      left: 3px;
+  }
